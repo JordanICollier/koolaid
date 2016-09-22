@@ -1,0 +1,22 @@
+body {
+  background-image: url('../images/propaganda-dark-invert.png');
+  background-position: left;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+}
+
+.speaker-controls-notes {
+  font-size: 0.7em;
+}
+
+.speaker-controls-notes * {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.speaker-controls-notes .strong {
+  font-weight: bold;
+}

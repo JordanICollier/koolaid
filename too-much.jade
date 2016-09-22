@@ -1,0 +1,197 @@
+doctype html
+html(lang="en")
+  head
+    link(rel="stylesheet" href="./stylesheets/reveal.css")
+    link(rel="stylesheet" href="./stylesheets/moon.css")
+    link(rel="stylesheet" href="./stylesheets/style.css")
+  body
+    .reveal
+      .slides
+        section
+          h1 The Koolaid
+        section
+          h2 Software development is hard
+          aside.notes
+            p why do we do this?
+            p here's how we solved problems
+        section
+          section
+            h2 How do we make work dope?
+            aside.notes
+              p how do we make sure we all enjoy coming to work in the morning?
+              p How do we not get burnt out?
+              p how do we reduce suck?
+              p how do we make people feel comfortable at work?
+              p how do we stay connected to our office/global team?
+          section
+            h3 We have fun
+            h3.fragment We have super tight feedback loops
+            h3.fragment We continuously learn
+          section
+            h3 It's ok to not know
+            aside.notes it's a learning opportunity for both the asker and the askee... teaching is a skill
+          section
+            h3 Feedback on the spot
+            p.fragment kind, actionable, specific
+          section
+            h3 Confident, not cocky
+            aside.notes
+              p respectfully disagree
+          section
+            h3 Respectful, empathetic
+            aside.notes
+              p such corporate?
+              p no -ist jokes
+          section
+            h3 breaks
+            p take them before you need them
+            aside.notes
+              p take them! take them when you need them!
+          section
+            h3 stand ups
+            p team and global
+            aside.notes
+              p change the facilitator often, across locations
+              p it's good to see each others faces, it reminds us that we're all a team in it together
+              p it feels good to ask someone a question instead of just being told to google it &mdash; it strengthens the team
+              p it's good to demonstrate/reinforce/live by that it's ok to ask questions and not know things
+          section
+            h3 on time
+            aside.notes
+              p it's respectful to show up ready to go when we're supposed to start work
+          section
+            h3 Have fun
+        section
+          section
+            h2 how do we solve knowledge siloing?
+          section
+            h3 pair
+          section
+            h3 rotate pairs
+          section
+            h3 rotation &gt; (immediate) velocity
+        section
+          section
+            h2 how do we build things that users want, and not things they don't want
+            h2 how do we make sure we're still on track?
+          section
+            h3 release early, release often
+          section
+            h3 PM's should live with their team
+            aside.notes
+              p PM's should work by their team as much as possible
+              p PM's should be available to their team as much as possible
+          section
+            h3 tight feedback loops
+            ul
+              li.fragment get user feedback often
+              li.fragment pluses and deltas at the end of the day
+              li.fragment direct feedback as soon as possible (kind, actionable, specific)
+            aside.notes
+              p the sooner we hear about something the easier we can pivot
+          section
+            h3 love user feedback
+            aside.notes
+              p these are the people using your shit! they're awesome!
+        section
+          section
+            h2 how do we stay focused
+          section
+            h3 desks: totes sacred
+            aside.notes
+              p we like to eat in the cafeteria
+              p breaks away from our desks
+              p phones are hidden/completely put away
+              p code only: personal computer tasks (email, news, etc.) are done on a different computer
+              p sometimes it makes sense for some people to have a phone (but still put away)... can put it on vibrate or use a whitelist
+          section
+            h3 interrupt pair
+          section
+            h3 be mindful of other pairs' focus level
+        section
+          section
+            h2 how do we keep learning?
+            h2 how do we make sure our resumes still look awesome?
+            h2 how do we get better? how do we git gud?
+          section
+            h3 it's ok to not know
+          section
+            h3 pair
+          section
+            h3 rotate pairs
+          section
+            h3 rotation &gt; (immediate) velocity
+          section
+            h3 code review/tech retro
+          section
+            h3 weekly team retros
+            aside.notes
+              p we generate action items from our mehs and frowny-faces
+          section
+            h3 daily action items
+            aside.notes
+              p these from our weekly team retros
+          section
+            h3 weekly lunch &amp; learns
+            aside.notes
+              p we lead them ourselves
+          section
+            h3 open source day
+            aside.notes
+              p code craftsmanship
+              p continuous learning
+              p feels good man
+          section
+            h3 collaborate across product teams
+        section
+          section
+            h2 OMG ANCHORS SOMETHING SOMETHING JORDAN HALP
+          section
+            h3 9 - 12 months
+          section
+            h3 pre-IPM
+        section
+          section
+            h3 rotate pairs
+            h2 how do we avoid debt?
+            h2.fragment how do i make sure i don't break the codebase?
+            h2.fragment how do we make sure our code is maintainable?
+            h2.fragment how do we make sure there are no regressions?
+            h2.fragment how do we make refactoring not scary?
+          section
+            h3 pair
+          section
+            h3 rotate pairs
+          section
+            h3 rotation &gt; (immediate) velocity
+          section
+            h3 red, green, refactor
+            aside.notes
+              p WHAT DO WE SAY TO THE GOD OF DEBT?! NOT TODAY!!
+              p leave things better than we found them
+          section
+            h3 doing it right &gt; doing it fast
+          section
+            h3 test-driven development &amp; continuous integration
+        section
+          section
+            h2 major themes
+          section
+            h3 tight feedback loops
+            p pairing, rotating pairs
+            h3 continuous learning
+            p pairing, rotating pairs
+            h3 have fun
+            p pairing, rotating pairs
+        section
+          h1 THE END
+          p Mel, Wesley, and Jordan are the best
+    script(src="./lib/js/head.min.js")
+    script(src="./javascripts/reveal.js")
+    script(type="text/javascript").
+      Reveal.initialize({
+        history: true,
+        dependencies: [
+          {src: "plugins/notes/notes.js", async: true}
+        ]
+      })
